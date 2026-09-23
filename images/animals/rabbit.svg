@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Rabbit mascot — Mimi">
+  <title>Mimi the Rabbit</title>
+  <!-- Long ears -->
+  <ellipse cx="78" cy="38" rx="11" ry="32" fill="#F4F4F1"/>
+  <ellipse cx="122" cy="38" rx="11" ry="32" fill="#F4F4F1"/>
+  <ellipse cx="78" cy="38" rx="5" ry="22" fill="#E6B3C5"/>
+  <ellipse cx="122" cy="38" rx="5" ry="22" fill="#E6B3C5"/>
+  <!-- Head -->
+  <circle cx="100" cy="110" r="58" fill="#F4F4F1"/>
+  <!-- Cheek fluff -->
+  <circle cx="48" cy="125" r="14" fill="#F4F4F1"/>
+  <circle cx="152" cy="125" r="14" fill="#F4F4F1"/>
+  <!-- Eyes (closed-happy arc + open option) -->
+  <ellipse cx="80" cy="105" rx="7" ry="10" fill="#0B0B0F"/>
+  <ellipse cx="120" cy="105" rx="7" ry="10" fill="#0B0B0F"/>
+  <circle cx="82" cy="100" r="2.5" fill="#F4F4F1"/>
+  <circle cx="122" cy="100" r="2.5" fill="#F4F4F1"/>
+  <!-- Blush -->
+  <circle cx="68" cy="128" r="9" fill="#B71234" opacity="0.3"/>
+  <circle cx="132" cy="128" r="9" fill="#B71234" opacity="0.3"/>
+  <!-- Nose (Y) -->
+  <path d="M94 124 L 106 124 L 100 130 Z" fill="#E6B3C5"/>
+  <path d="M100 130 L 100 140 M 100 140 Q 94 144 92 140 M 100 140 Q 106 144 108 140" stroke="#0B0B0F" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Tiny teeth -->
+  <rect x="96" y="142" width="3" height="6" fill="#F4F4F1" stroke="#0B0B0F" stroke-width="0.8"/>
+  <rect x="101" y="142" width="3" height="6" fill="#F4F4F1" stroke="#0B0B0F" stroke-width="0.8"/>
+</svg>

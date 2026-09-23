@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Penguin mascot — Pebble">
+  <title>Pebble the Penguin</title>
+  <!-- Body -->
+  <ellipse cx="100" cy="115" rx="55" ry="68" fill="#0B0B0F"/>
+  <!-- Belly -->
+  <ellipse cx="100" cy="125" rx="38" ry="50" fill="#F4F4F1"/>
+  <!-- Wings -->
+  <ellipse cx="50" cy="120" rx="14" ry="32" fill="#0B0B0F" transform="rotate(-15 50 120)"/>
+  <ellipse cx="150" cy="120" rx="14" ry="32" fill="#0B0B0F" transform="rotate(15 150 120)"/>
+  <!-- Feet -->
+  <ellipse cx="78" cy="180" rx="14" ry="6" fill="#E07A3C"/>
+  <ellipse cx="122" cy="180" rx="14" ry="6" fill="#E07A3C"/>
+  <!-- Face -->
+  <ellipse cx="100" cy="95" rx="42" ry="40" fill="#0B0B0F"/>
+  <!-- White face mask -->
+  <ellipse cx="100" cy="105" rx="32" ry="28" fill="#F4F4F1"/>
+  <!-- Eyes -->
+  <circle cx="84" cy="92" r="7" fill="#F4F4F1"/>
+  <circle cx="116" cy="92" r="7" fill="#F4F4F1"/>
+  <circle cx="84" cy="92" r="4" fill="#0B0B0F"/>
+  <circle cx="116" cy="92" r="4" fill="#0B0B0F"/>
+  <circle cx="85" cy="90" r="1.5" fill="#F4F4F1"/>
+  <circle cx="117" cy="90" r="1.5" fill="#F4F4F1"/>
+  <!-- Beak -->
+  <path d="M88 112 L 112 112 L 100 124 Z" fill="#E07A3C"/>
+  <!-- Blush -->
+  <circle cx="68" cy="115" r="6" fill="#B71234" opacity="0.3"/>
+  <circle cx="132" cy="115" r="6" fill="#B71234" opacity="0.3"/>
+  <!-- Gold bowtie (DIKU signature) -->
+  <path d="M85 158 L 100 150 L 115 158 L 100 166 Z" fill="#C9A961"/>
+  <circle cx="100" cy="158" r="3" fill="#0B0B0F"/>
+</svg>

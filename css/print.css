@@ -1,0 +1,115 @@
+/* =========================================================================
+   Print stylesheet — used by privacy.html & terms.html
+   Goal: clean black-on-white, no nav/footer chrome, fit-to-page.
+   ========================================================================= */
+
+@media print {
+  :root {
+    --ink: #000;
+    --bone: #fff;
+    --cream: #fff;
+    --gold: #000;
+    --crimson: #000;
+    --graphite: #222;
+  }
+
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  html { font-size: 11pt; }
+  body {
+    font-family: "Times New Roman", Georgia, serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* hide chrome */
+  .site-header,
+  .site-footer,
+  .scroll-progress,
+  .particles,
+  .accent-mascot,
+  .reveal,
+  .nav,
+  .cta-band,
+  .skip-link,
+  .hero,
+  .marquee,
+  button {
+    display: none !important;
+  }
+
+  /* legal layout */
+  .legal { padding: 0; }
+  .legal__layout {
+    grid-template-columns: 1fr !important;
+    gap: 0 !important;
+  }
+  .legal__toc { display: none !important; }
+  .legal__body {
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+  .legal__body > section {
+    page-break-inside: avoid;
+    page-break-after: auto;
+    padding-block: 12pt;
+    border-top: 1px solid #999;
+  }
+  .legal__body > section:first-of-type { border-top: 0; }
+  .legal__body h2 {
+    font-size: 16pt;
+    margin-bottom: 6pt;
+    page-break-after: avoid;
+  }
+  .legal__body h3 {
+    font-size: 13pt;
+    margin-top: 8pt;
+    page-break-after: avoid;
+  }
+  .legal__body h4 {
+    font-size: 9pt;
+    page-break-after: avoid;
+  }
+  .legal__body ul {
+    padding-left: 14pt;
+  }
+  .legal__body ul li {
+    margin-bottom: 2pt;
+  }
+  .legal__body a {
+    text-decoration: underline;
+    color: #000 !important;
+  }
+  .legal__body a::after {
+    content: " (" attr(href) ")";
+    font-size: 8pt;
+    color: #555 !important;
+  }
+
+  .sdk-block {
+    border: 1px solid #999 !important;
+    padding: 8pt;
+    border-radius: 0 !important;
+    page-break-inside: avoid;
+  }
+  .sdk-block dl { grid-template-columns: 100pt 1fr !important; }
+
+  /* page header on each printed page */
+  @page {
+    margin: 18mm 16mm 18mm 16mm;
+  }
+  .legal__head {
+    border-bottom: 1px solid #000;
+    padding-bottom: 6pt;
+    margin-bottom: 14pt;
+  }
+  .legal__head .updated { display: block; margin-top: 4pt; }
+}

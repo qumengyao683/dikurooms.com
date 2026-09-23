@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" role="img" aria-label="DIKUROOMS Trading Co., Limited">
+  <title>DIKUROOMS</title>
+  <desc>Wordmark with 2x2-grid symbol representing four service rooms.</desc>
+
+  <!-- Symbol: 2x2 grid, top-right square accented in gold -->
+  <g transform="translate(8, 8)">
+    <rect x="0"  y="0"  width="28" height="28" rx="3" fill="#0B0B0F"/>
+    <rect x="32" y="0"  width="28" height="28" rx="3" fill="#C9A961"/>
+    <rect x="0"  y="32" width="28" height="28" rx="3" fill="#0B0B0F"/>
+    <rect x="32" y="32" width="28" height="28" rx="3" fill="#0B0B0F"/>
+    <!-- Hairline inner highlight on gold -->
+    <rect x="33.5" y="1.5" width="25" height="25" rx="2" fill="none" stroke="#E6CF9A" stroke-width="0.5" opacity="0.6"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(96, 0)" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-weight="700" letter-spacing="0.02em">
+    <text x="0" y="48" font-size="34" fill="#0B0B0F">DIKU<tspan fill="#C9A961">R</tspan><tspan fill="#C9A961">OO</tspan>MS</text>
+  </g>
+
+  <!-- Subtle tagline hairline -->
+  <line x1="96" y1="62" x2="220" y2="62" stroke="#C9A961" stroke-width="1" opacity="0.5"/>
+  <text x="96" y="74" font-family="'Inter',sans-serif" font-size="7" letter-spacing="0.32em" fill="#0B0B0F" opacity="0.6">TRADING CO., LIMITED</text>
+</svg>

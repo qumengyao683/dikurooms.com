@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" role="img" aria-label="DIKUROOMS Trading Co., Limited (monochrome)">
+  <title>DIKUROOMS — Monochrome</title>
+  <desc>Single-color variant for stamps, embossing, dark-on-light print.</desc>
+
+  <g transform="translate(8, 8)">
+    <rect x="0"  y="0"  width="28" height="28" rx="3" fill="none" stroke="currentColor" stroke-width="2"/>
+    <rect x="32" y="0"  width="28" height="28" rx="3" fill="currentColor"/>
+    <rect x="0"  y="32" width="28" height="28" rx="3" fill="none" stroke="currentColor" stroke-width="2"/>
+    <rect x="32" y="32" width="28" height="28" rx="3" fill="none" stroke="currentColor" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(96, 0)" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-weight="700" letter-spacing="0.02em">
+    <text x="0" y="48" font-size="34" fill="currentColor">DIKUROOMS</text>
+  </g>
+
+  <line x1="96" y1="62" x2="220" y2="62" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+  <text x="96" y="74" font-family="'Inter',sans-serif" font-size="7" letter-spacing="0.32em" fill="currentColor" opacity="0.7">TRADING CO., LIMITED</text>
+</svg>

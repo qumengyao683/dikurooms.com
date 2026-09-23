@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Deer mascot — Maple">
+  <title>Maple the Deer</title>
+  <!-- Antlers -->
+  <path d="M75 50 L 70 30 L 78 35 M 70 30 L 60 28 M 75 50 L 80 38" stroke="#C9A961" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M125 50 L 130 30 L 122 35 M 130 30 L 140 28 M 125 50 L 120 38" stroke="#C9A961" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Ears -->
+  <ellipse cx="58" cy="80" rx="14" ry="22" fill="#A87E5C" transform="rotate(-25 58 80)"/>
+  <ellipse cx="142" cy="80" rx="14" ry="22" fill="#A87E5C" transform="rotate(25 142 80)"/>
+  <ellipse cx="58" cy="80" rx="7" ry="16" fill="#E6B3C5" transform="rotate(-25 58 80)"/>
+  <ellipse cx="142" cy="80" rx="7" ry="16" fill="#E6B3C5" transform="rotate(25 142 80)"/>
+  <!-- Face -->
+  <ellipse cx="100" cy="115" rx="55" ry="52" fill="#B88A5E"/>
+  <!-- Cream muzzle -->
+  <ellipse cx="100" cy="135" rx="28" ry="20" fill="#F4E6D0"/>
+  <!-- Eyes (large, doe) -->
+  <ellipse cx="80" cy="105" rx="9" ry="12" fill="#0B0B0F"/>
+  <ellipse cx="120" cy="105" rx="9" ry="12" fill="#0B0B0F"/>
+  <circle cx="82" cy="100" r="3" fill="#F4F4F1"/>
+  <circle cx="122" cy="100" r="3" fill="#F4F4F1"/>
+  <circle cx="78" cy="110" r="2" fill="#F4F4F1"/>
+  <circle cx="118" cy="110" r="2" fill="#F4F4F1"/>
+  <!-- Blush -->
+  <circle cx="68" cy="130" r="7" fill="#B71234" opacity="0.3"/>
+  <circle cx="132" cy="130" r="7" fill="#B71234" opacity="0.3"/>
+  <!-- Nose -->
+  <ellipse cx="100" cy="135" rx="6" ry="4" fill="#0B0B0F"/>
+  <!-- Mouth -->
+  <path d="M100 139 L 100 146 Q 92 152 88 148 M 100 146 Q 108 152 112 148" stroke="#0B0B0F" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Freckle -->
+  <circle cx="88" cy="125" r="1.5" fill="#0B0B0F"/>
+  <circle cx="112" cy="125" r="1.5" fill="#0B0B0F"/>
+</svg>

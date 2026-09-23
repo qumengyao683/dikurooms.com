@@ -1,0 +1,27 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Node / build artifacts
+node_modules/
+dist/
+.vite/
+.cache/
+
+# Logs
+*.log
+
+# User-supplied SPEC files — contain GitHub PATs and must NEVER be committed
+SEPC.txt
+SEPC.md
+SPEC*.txt
+github*.txt
+_local/
+
+# Local drafts / ops scratch
+_*.ps1
+_check_*.ps1
+*.bak

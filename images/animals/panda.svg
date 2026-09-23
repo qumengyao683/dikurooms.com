@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Panda mascot — Pando">
+  <title>Pando the Panda</title>
+  <!-- Ears -->
+  <circle cx="55" cy="55" r="20" fill="#0B0B0F"/>
+  <circle cx="145" cy="55" r="20" fill="#0B0B0F"/>
+  <!-- Face -->
+  <circle cx="100" cy="110" r="62" fill="#F4F4F1"/>
+  <!-- Eye patches -->
+  <ellipse cx="76" cy="105" rx="14" ry="18" fill="#0B0B0F" transform="rotate(-12 76 105)"/>
+  <ellipse cx="124" cy="105" rx="14" ry="18" fill="#0B0B0F" transform="rotate(12 124 105)"/>
+  <!-- Eyes (glossy) -->
+  <circle cx="78" cy="103" r="6" fill="#F4F4F1"/>
+  <circle cx="122" cy="103" r="6" fill="#F4F4F1"/>
+  <circle cx="80" cy="105" r="2.5" fill="#0B0B0F"/>
+  <circle cx="124" cy="105" r="2.5" fill="#0B0B0F"/>
+  <!-- Nose -->
+  <ellipse cx="100" cy="128" rx="6" ry="4" fill="#0B0B0F"/>
+  <!-- Mouth -->
+  <path d="M100 132 L 100 144 M 100 144 Q 92 152 86 146 M 100 144 Q 108 152 114 146" stroke="#0B0B0F" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Bamboo -->
+  <line x1="40" y1="170" x2="40" y2="195" stroke="#2E7D32" stroke-width="4" stroke-linecap="round"/>
+  <line x1="56" y1="172" x2="56" y2="198" stroke="#2E7D32" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="40" cy="170" rx="8" ry="3" fill="#4CAF50"/>
+  <ellipse cx="56" cy="172" rx="8" ry="3" fill="#4CAF50"/>
+</svg>
