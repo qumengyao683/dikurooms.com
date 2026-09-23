@@ -40,4 +40,4 @@ python -m http.server 8000
 - All copy is in English.
 - Privacy/Terms intentionally comprehensive — do not summarize.
 - Privacy covers GDPR (EU/UK), CCPA/CPRA (California), LGPD (Brazil), PIPEDA (Canada), Australia Privacy Act 1988, Singapore PDPA, Japan APPI, plus COPPA / GDPR-K / UK Age-Appropriate Design Code.
-- Privacy covers 19 ad SDKs and 4 formats (splash, rewarded video, interstitial, banner).
+- Privacy covers 19 ad SDKs and 4 formats (splash, rewarded video, interstitial, banner).## retrigger-cert 2026-09-23 13:10:24
